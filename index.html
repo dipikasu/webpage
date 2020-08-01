@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snipp-freee bootstrap 4 template</title>
+<style>
+
+
+body{
+        background-color:rgb(85, 236, 219);
+    }
+
+    
+
+h1{
+    text-align: center;
+    color: rgb(84, 65, 192);
+    letter-spacing: 3px;
+    font-family: "Sofia";
+  font-size: 80px;
+    font-style:italic;
+}
+    
+    .button {
+  background-color:whitesmoke;
+  border: none;
+  color: rgb(84, 20, 104);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 120px 480px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+
+.button1 {
+  background-color:bisque;
+  color: black; 
+  border: 2px solid #4CAF50;
+  border-radius: 25px;
+  width: 250px;
+  
+}
+.button1:hover {
+  background-color:rgb(85, 236, 219);
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+.logo{
+    padding: 15px;
+    font-size: 28px;
+    margin-left: 30px;
+
+
+}
+ul {
+        display: flex;
+         list-style-type: none;
+         justify-content: space-around;
+          margin-top:-40px;
+          margin-right: 200px;
+        padding:5%;
+        text-align: center;
+        font-size: 30px;
+        color:rgb(81, 21, 116);
+        font-style: italic;
+        
+    }  
+    ul :hover {
+  background-color:rgba(179, 171, 182, 0.801);
+  color: rgb(231, 14, 79);
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+/*.column {
+    float:left;
+    width:33.33%;
+    padding: 15px;
+}
+.row: after{
+    content:"";
+    display:table;
+    clear:both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color:rgb(85, 236, 219);
+  padding: 10px;
+  
+}
+
+
+.grid-container > div {
+  background-color:rgb(85, 236, 219);
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-family:"Sofi";
+}
+  
+@media screen and (max-width: 600px) {
+  .grid-container {
+    /*background-color: rgb(144, 169, 238);*/
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  nav{
+    flex-direction: column;
+  }
+  ul{
+    flex-direction: column;
+  }
+  .button{
+    margin:10px 80px;
+  }
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+</head>
+<body> 
+    <nav>
+<div class="logo">
+    <img src="target.png">
+    SNIPP
+</div>
+
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Services</li>
+    <li>Portfolio</li>
+    <li>contact</li>
+    
+
+  </ul>
+</nav>
+  <h1>
+    we love to create<br>
+   <b>Beautiful Website</b> 
+</h1>
+<button class="button button1">Get In Touch</button>
+<div class="grid-container">
+    <div>
+        <img src="s7.png">
+        <h3>Strategy</h3>
+        <p>Even the all-powerful
+             Pointing has
+             no control about 
+              blind texts
+            it is an almost 
+            unorthographic.</p>
+    </div>
+    
+
+    <div>
+        <img src="s4.png">
+        <h3>Design</h3>
+        <p>Even the all-powerful Pointing has
+             no control about the blind texts
+            it is an almost unorthographic.</p>
+    </div>
+
+
+    <div>
+        <img src="s5.png">
+        <h3>Development</h3>
+        <p>Even the all-powerful Pointing 
+            has no  control about the 
+            blind texts it is an almost 
+            unorthographic.</p>
+    </div>
+
+
+    <div>
+        <img src="s8.png">
+        <h3>Help & Supports</h3>
+        <p>Even the all-powerful Pointing has
+             no control about the blind texts
+            it is an almost unorthographic.</p>
+    </div>
+
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+</body>
+
+</html>
